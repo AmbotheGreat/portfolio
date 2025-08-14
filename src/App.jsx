@@ -9,7 +9,7 @@ import Contact from './components/contact'
 // Navigation component for better separation of concerns
 const Navigation = React.memo(({ location }) => {
   const navItems = useMemo(() => [
-    { path: '/', icon: 'home', label: 'Home' },
+    { path: '/joshua-portfolio', icon: 'home', label: 'Home' },
     { path: '/projects', icon: 'projects', label: 'Projects' },
     { path: '/skills', icon: 'skills', label: 'Skills' },
     { path: '/contact', icon: 'contact', label: 'Contact' }
@@ -134,7 +134,7 @@ function App() {
       {/* Route Transition Container */}
       <div className={`route-transition-container ${isTransitioning ? 'transitioning' : ''} ${slideDirection} ${exitDirection}`}>
         <Routes location={location}>
-          <Route path="/" element={<Home />} />
+          <Route path="/joshua-portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
