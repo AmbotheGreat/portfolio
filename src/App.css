@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Malibu';
-  src: url('Malibu.ttf') format('truetype');
+  src: url('/Malibu.ttf') format('truetype');
 }
 
 .roboto-custom {

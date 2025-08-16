@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  publicDir: 'public',
   build: {
     // Enable source maps for debugging
     sourcemap: false,
