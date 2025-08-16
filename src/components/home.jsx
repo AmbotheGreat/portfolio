@@ -33,7 +33,7 @@ export default function Home(){
     // Memoize social media buttons
     const socialButtons = useMemo(() => [
       {
-        href: "/resume.pdf",
+        href: "/portfolio/resume.pdf",
         bgColor: "#3b82f6",
         icon: "Download CV",
         label: "Download CV"
@@ -73,10 +73,10 @@ export default function Home(){
     return(
         <div className='w-1/2 flex flex-col justify-center relative pl-10'>
           <h1 className='text-7xl flex flex-row items-center mb-2'>
-              <span className='bg-yellow-400 px-3 rounded-lg'>Hi! I am</span>
-              <span className='text-blue-600 text-[12rem] absolute right-20 pt-8' style={{ fontFamily: 'Malibu, sans-serif' }}> Joshua</span>
+              <span className='bg-yellow-400 px-3 rounded-lg absolute text-7xl left-10'>Hi! I am</span>
+              <span className='text-blue-600 text-[12rem] absolute left-65 pt-8' style={{ fontFamily: 'Malibu, sans-serif' }}> Joshua</span>
           </h1>
-          <h2 className='text-4xl py-2'>
+          <h2 className='text-4xl py-2 pt-12'>
             <TypewriterText
               text={typewriterTexts}
               speed={70}
