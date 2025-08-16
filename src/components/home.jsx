@@ -92,6 +92,7 @@ export default function Home(){
              future.
           </p>
           <h3 className='opacity-60 py-2'>Want to connect with me? Email me or follow me on.</h3>
+          <h4 className='opacity-60'>Download or view my CV to know more about me.</h4>
           <div className='flex flex-row items-center'>
             {socialButtons.map((button, index) => (
               <SocialButton

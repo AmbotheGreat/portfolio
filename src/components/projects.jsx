@@ -8,14 +8,14 @@ const projects = [
     title: "JeepSieLog – Jeepney Travel Time Tracking System",
     description: "System that designed to track the travel time of jeepneys from point to point which is the waiting areas. The goal of JeepSieLog was to provide a tool that could help analyze the efficiency of public transportation, particularly jeepneys — a common mode of transportation in the Philippines. The system needed to monitor travel durations, identify waiting times at designated points, and visually represent these data points through a map interface.",
     images: [
-      "joshua-portfolio/jeepsielog/1.png",
-      "joshua-portfolio/jeepsielog/2.png",
-      "joshua-portfolio/jeepsielog/3.png",
-      "joshua-portfolio/jeepsielog/4.png",
-      "joshua-portfolio/jeepsielog/5.png",
-      "joshua-portfolio/jeepsielog/6.png",
-      "joshua-portfolio/jeepsielog/7.png",
-      "joshua-portfolio/jeepsielog/8.png"
+      "portfolio/jeepsielog/1.png",
+      "portfolio/jeepsielog/2.png",
+      "portfolio/jeepsielog/3.png",
+      "portfolio/jeepsielog/4.png",
+      "portfolio/jeepsielog/5.png",
+      "portfolio/jeepsielog/6.png",
+      "portfolio/jeepsielog/7.png",
+      "portfolio/jeepsielog/8.png"
     ],
     skills: ["React Js", "JavaScript (ES6+)", "CSS3", "Google Maps API", "Geolocation API"]
   },
@@ -23,15 +23,15 @@ const projects = [
     title: "NIA Employee Documents Management",
     description: "The NIA Employee Documents Management system is designed to securely store, organize, and manage employee documents and records for the National Irrigation Administrations, providing a centralized platform for document handling, access control, and automated workflows.",
     images: [
-      "joshua-portfolio/nia/1.png",
-      "joshua-portfolio/nia/2.png",
-      "joshua-portfolio/nia/3.png",
-      "joshua-portfolio/nia/4.png",
-      "joshua-portfolio/nia/5.png",
-      "joshua-portfolio/nia/6.png",
-      "joshua-portfolio/nia/7.png",
-      "joshua-portfolio/nia/8.png",
-      "joshua-portfolio/nia/9.png"
+      "portfolio/nia/1.png",
+      "portfolio/nia/2.png",
+      "portfolio/nia/3.png",
+      "portfolio/nia/4.png",
+      "portfolio/nia/5.png",
+      "portfolio/nia/6.png",
+      "portfolio/nia/7.png",
+      "portfolio/nia/8.png",
+      "portfolio/nia/9.png"
     ],
     skills: ["React Js", "JavaScript (ES6+)", "TailwindCSS", "Node.js", "Express.js", "MariaDB"]
   },
@@ -39,16 +39,16 @@ const projects = [
     title: "Fluiguard - Sustainable Hybrid Control of Water Aeration System for Aquaponics with Real-time Tilapia Behavior Monitoring",
     description: "This project aims to design and implement a Sustainable Hybrid Control System for water aeration in aquaponics that integrates real-time monitoring of tilapia behavior to optimize oxygenation levels. The system addresses the critical balance between sustainability, fish welfare, and energy efficiency in aquaponics operations. By using smart sensors, microcontrollers, and machine learning-based behavior analysis, the system dynamically adjusts aeration based on water quality parameters (such as dissolved oxygen and temperature) and observed fish activity. This hybrid approach combines automated control and behavior-driven decision-making, ensuring that oxygen levels are optimal without unnecessary energy consumption.",
     images: [
-      "joshua-portfolio/fluiguard/1.png",
-      "joshua-portfolio/fluiguard/2.png",
-      "joshua-portfolio/fluiguard/3.png",
-      "joshua-portfolio/fluiguard/4.png",
-      "joshua-portfolio/fluiguard/5.png",
-      "joshua-portfolio/fluiguard/6.png",
-      "joshua-portfolio/fluiguard/7.png",
-      "joshua-portfolio/fluiguard/8.png",
-      "joshua-portfolio/fluiguard/9.png",
-      "joshua-portfolio/fluiguard/10.png"
+      "portfolio/fluiguard/1.png",
+      "portfolio/fluiguard/2.png",
+      "portfolio/fluiguard/3.png",
+      "portfolio/fluiguard/4.png",
+      "portfolio/fluiguard/5.png",
+      "portfolio/fluiguard/6.png",
+      "portfolio/fluiguard/7.png",
+      "portfolio/fluiguard/8.png",
+      "portfolio/fluiguard/9.png",
+      "portfolio/fluiguard/10.png"
     ],
     skills: ["Python", "Raspberry", "IoT", "Machine Learning", "Data Analysis", "Hardware Integration"]
   },
